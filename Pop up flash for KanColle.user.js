@@ -3,7 +3,7 @@
 // @include      http://www.dmm.com/netgame/social/-/gadgets/=/app_id=854854/
 // @include      http://osapi.dmm.com/gadgets/ifr*
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  It's just a demo,now.
 // @author       Ryo
 // @grant        none
