@@ -7,3 +7,5 @@ javascript:{var iWidth=800;var iHeight=480;var iTop=(window.screen.availHeight-3
 ```
 
 使用上方JavaScript可以隐藏部分浏览器UI,建议保存为书签，可选中后拖动至收藏夹。
+
+需要注意的是，移除元素是一种"较为暴力"的"适配窗口"方案，哪天懒癌没发病会改成隐藏的:) 大概
