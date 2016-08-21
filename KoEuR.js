@@ -2,8 +2,10 @@
 // @name         Remove useless Elements on KanColle
 // @include      http://www.dmm.com/netgame/social/-/gadgets/=/app_id=854854*
 // @include      http://osapi.dmm.com/gadgets/ifr*
-// @namespace    http://tampermonkey.net/
-// @version      1.4
+// @namespace    https://github.com/RyoLee/KoEuR
+// @homepage     https://github.com/RyoLee/KoEuR
+// @updateURL    https://raw.githubusercontent.com/RyoLee/KoEuR/master/KoEuR.js
+// @version      1.5
 // @description  It's just a demo,now.
 // @author       Ryo
 // @grant        none
