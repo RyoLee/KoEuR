@@ -3,7 +3,7 @@
 // @include      http://www.dmm.com/netgame/social/-/gadgets/=/app_id=854854*
 // @include      http://osapi.dmm.com/gadgets/ifr*
 // @namespace    http://tampermonkey.net/
-// @version      1.3
+// @version      1.4
 // @description  It's just a demo,now.
 // @author       Ryo
 // @grant        none
@@ -59,6 +59,9 @@
                 }
             }
         },false);
+        window.onbeforeunload = function(event) {
+            return confirm("确定退出吗");
+        };
         return;
     }
     if(host=='osapi.dmm.com' && pathname=='/gadgets/ifr')
